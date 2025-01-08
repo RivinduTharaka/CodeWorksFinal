@@ -12,7 +12,6 @@ import Nirosh from "../Image/nirosh-removebg-preview.png";
 import Ravindu from "../Image/Ravindu-removebg-preview.png";
 import Abhi from "../Image/Abhi.png";
 import Sadula from "../Image/Sadula.png";
-import Chulani from "../Image/Chulani-removebg-preview.png";
 
 const scrollAnimation = keyframes`
   0% { transform: translateX(100%); opacity: 0; }
@@ -25,44 +24,39 @@ function About() {
   const teamMembers = [
     {
       name: "Shehan Karunathilake",
-      role: "Team Lead",
+      role: "Team Lead / Software Engineer",
       avatar: shehan,
     },
     {
       name: "Shenal Perera",
-      role: "Associate Lead",
+      role: "Associate Lead / Software Engineer",
       avatar: Shenal,
     },
     {
-      name: "Rivindu Amarasinghe",
-      role: "Developer",
+      name: "Rivindu Tharaka",
+      role: "PM / Software Engineer",
       avatar: Rivindu,
     },
     {
       name: "Nirosh Madushan",
-      role: "Developer",
+      role: "Principal Software Engineer",
       avatar: Nirosh,
     },
     {
       name: "Ravidu Nalawatta",
-      role: "Developer",
+      role: "Software Engineer",
       avatar: Ravindu,
     },
     {
       name: "Abivarzene Sutharshon",
-      role: "Developer",
+      role: "Software Engineer",
       avatar: Abhi,
     },
     {
       name: "Sadula Fernando",
-      role: "Developer",
+      role: "Software Engineer",
       avatar: Sadula,
-    },
-    {
-      name: "Chulani Vimukthi",
-      role: "Developer",
-      avatar: Chulani,
-    },
+    }
   ];
 
   const [visibleIndex, setVisibleIndex] = useState(0);
@@ -87,7 +81,7 @@ function About() {
         backdropFilter: "blur(10px)",
       }}
     >
-      <Grid container spacing={4}>
+      <Grid container spacing={3}>
         {/* Left Column */}
         <Grid item xs={12} md={6}>
           <Box sx={{ padding: "20px" }}>
@@ -225,9 +219,24 @@ function About() {
                       }}
                       src={member.avatar}
                     />
-                    <Typography variant="h6" sx={{ fontWeight: "bold", fontSize: "1rem" }}>
+                    <Typography
+                      variant="h6"
+                      sx={{
+                        fontWeight: "bold",
+                        fontSize: {
+                          xs: "0.8rem", // Default font size for small screens
+                          sm: "0.9rem", // Font size for small devices
+                          md: "1rem", // Font size for medium devices
+                          "@media (min-width: 900px) and (max-width: 1024px)": {
+                            fontSize: "0.8rem", // Font size for resolution between 900px and 1024px
+                          },
+                        },
+                        textAlign: "center",
+                      }}
+                    >
                       {member.name}
                     </Typography>
+
                     <Typography sx={{ fontSize: "0.8rem", color: "rgba(0, 0, 0, 0.7)" }}>{member.role}</Typography>
                   </Box>
                 </Grid>
