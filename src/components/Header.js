@@ -422,10 +422,10 @@ const Header = () => {
             >
               <b>Website:</b>{" "}
               <a
-                href="https://codeworks.com"
+                href="https://connexcodeworks.biz/"
                 style={{ color: "#007BFF", textDecoration: "none" }}
               >
-                www.codeworks.com
+                connexcodeworks.biz
               </a>
             </Typography>
             <Typography
