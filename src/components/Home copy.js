@@ -416,7 +416,7 @@ const App = () => {
                 />
               </Box>
             </a>
-            <a href="https://www.tiktok.com/@codeworks3?_t=ZS-8sujv5Nhyit&_r=1" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@codeworks3" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
