@@ -307,12 +307,12 @@ const Header = () => {
           >
             <Button
               variant="contained"
-              onClick={() => window.open("https://wa.me/1234567890", "_blank")}
+              onClick={() => window.open("https://wa.me/94742028155", "_blank")}
               sx={{
                 width: "100%",
                 maxWidth: "300px",
                 backgroundColor: "#25D366", // WhatsApp green
-                color: "white",
+                color: "white", 
                 textTransform: "none",
                 fontSize: "16px",
                 fontWeight: "bold",
@@ -517,7 +517,6 @@ const Header = () => {
                 />
               </Box>
             </a>
-
             <a href="https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{

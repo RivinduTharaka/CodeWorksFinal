@@ -224,7 +224,7 @@ const App = () => {
           >
             <Button
               variant="contained"
-              onClick={() => window.open("https://wa.me/1234567890", "_blank")}
+              onClick={() => window.open("https://wa.me/94742028155", "_blank")}
               sx={{
                 width: "100%",
                 maxWidth: "300px",
