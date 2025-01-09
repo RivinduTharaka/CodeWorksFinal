@@ -44,59 +44,48 @@ const About = () => {
     const teamMembers = [
         {
           name: "Shehan Karunathilake",
-          techStack: "React + Node.js",
-          experience: "8+ years in application development.",
+        //   techStack: "React + Node.js",
+          experience: "Team Lead / Software Engineer.",
           avatar: shehan,
         },
         {
           name: "A. Shenal Perera",
-          techStack: "Vue + Django",
-          experience: "9+ years in application development.",
+        //   techStack: "Vue + Django",
+          experience: "Associate Lead / Software Engineer.",
           avatar: Shenal,
         },
         {
           name: "Rivindu Amarasinghe",
-          techStack: "Angular + Java",
-          experience: "10+ years in application development.",
+        //   techStack: "Angular + Java",
+          experience: "PM / Software Engineer.",
           avatar: Rivindu,
         },
         {
           name: "Nirosh Madushan",
-          techStack: "React + Node.js",
-          experience: "8+ years in application development.",
+        //   techStack: "React + Node.js",
+          experience: "Principal Software Engineer.",
           avatar: Nirosh,
         },
         {
           name: "Ravidu Nalawatta",
-          techStack: "Vue + Django",
-          experience: "9+ years in application development.",
+        //   techStack: "Vue + Django",
+          experience: "Software Engineer.",
           avatar: Ravindu,
         },
         {
           name: "Abevarzene Sutharshon",
-          techStack: "Angular + Java",
-          experience: "10+ years in application development.",
+        //   techStack: "Angular + Java",
+          experience: "Software Engineer.",
           avatar: Abhi,
         },
         {
           name: "Sadula Fernando",
-          techStack: "Specialist",
-          experience: "5+ years in magical solutions.",
+        //   techStack: "Specialist",
+          experience: "Software Engineer.",
           avatar: Sadula,
         },
-        {
-          name: "Chulani Vimukthi",
-          techStack: "Specialist",
-          experience: "5+ years in magical solutions.",
-          avatar: Chulani
-        },
+
     
-        {
-          name: "Nirosh Madushan",
-          techStack: "React + Node.js",
-          experience: "8+ years in application development.",
-          avatar: Nirosh,
-        },
       ];
 
     const [visibleIndex, setVisibleIndex] = useState(0);
