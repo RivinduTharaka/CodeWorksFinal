@@ -124,7 +124,7 @@ const Header = () => {
                   flexDirection: "column", // Stack items vertically
                   alignItems: "flex-start", // Align items to the left
                   paddingLeft: "10px", // Add some padding on the left
-                  fontFamily:'arial'
+                  fontFamily: 'arial'
                 }}
               >
                 <ListItem
@@ -236,7 +236,7 @@ const Header = () => {
               backgroundColor: "rgba(0, 0, 0, 0.1)",
               padding: "8px 8px",
               borderRadius: "10px",
-                  fontFamily:'arial'
+              fontFamily: 'arial'
             }}
           >
             <StyledLink to="/">Home</StyledLink>
@@ -437,10 +437,10 @@ const Header = () => {
             >
               <b>Email:</b>{" "}
               <a
-                href="mailto:contact@codeworks.com"
+                href="mailto:info@connexcodeworks.biz"
                 style={{ color: "#007BFF", textDecoration: "none" }}
               >
-                contact@codeworks.com
+                info@connexcodeworks.biz
               </a>
             </Typography>
             <Typography
@@ -449,7 +449,10 @@ const Header = () => {
                 color: "rgba(255, 255, 255, 0.9)",
               }}
             >
-              <b>Address:</b> 123 Code Street, Tech City, World
+              <b>Address :</b> No 286,
+              R. A. De Mel Mawatha, <br />
+              Colombo 00300,
+              Sri Lanka
             </Typography>
           </Box>
 
@@ -472,7 +475,7 @@ const Header = () => {
               },
             }}
           >
-            <a href="https://www.facebook.com/share/1EKdqvRXFh/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/share/15nQo7sp2M/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -493,7 +496,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://twitter.com/YourTwitterHandle" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@codeworks3?_t=ZS-8sujv5Nhyit&_r=1" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -504,17 +507,18 @@ const Header = () => {
                   backgroundColor: "rgba(255, 255, 255, 0.3)",
                   borderRadius: "50%",
                   transition: "all 0.3s ease",
-                  "&:hover": { backgroundColor: "#1DA1F2", transform: "scale(1.1)" },
+                  "&:hover": { backgroundColor: "#000000", transform: "scale(1.1)" },
                 }}
               >
                 <img
-                  src="https://img.icons8.com/ios-filled/50/ffffff/twitter.png"
-                  alt="Twitter"
+                  src="https://img.icons8.com/ios-filled/50/ffffff/tiktok.png"
+                  alt="TikTok"
                   style={{ width: "20px", height: "20px" }}
                 />
               </Box>
             </a>
-            <a href="https://instagram.com/YourInstagramUsername" target="_blank" rel="noopener noreferrer">
+
+            <a href="https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -535,7 +539,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://www.linkedin.com/company/YourCompanyLinkedIn" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/connexcodeworks/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -556,7 +560,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://www.youtube.com/channel/YourYouTubeChannel" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@connexinformationtechnologies" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -577,7 +581,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://wa.me/YourWhatsAppNumber" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/94742028155" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -598,6 +602,7 @@ const Header = () => {
                 />
               </Box>
             </a>
+
           </Box>
 
 
@@ -678,7 +683,7 @@ function RequestButton({ onClick }) {
           display: "flex",
           alignItems: "center",
           gap: "8px", // Space between icon and text
-              fontFamily:'arial'
+          fontFamily: 'arial'
         }}
       >
         <FaUser size={16} /> {/* Icon on the left */}
