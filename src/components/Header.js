@@ -242,7 +242,7 @@ const Header = () => {
             <StyledLink to="/">Home</StyledLink>
             <StyledLink to="/Services">Our Service</StyledLink>
             <StyledLink to="/about">About</StyledLink>
-            <StyledLink to="/blogs">Blogs</StyledLink>
+            <StyledLink to="/blogs">Solutions</StyledLink>
           </Box>
         )}
 
@@ -496,7 +496,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://www.tiktok.com/@codeworks3?_t=ZS-8sujv5Nhyit&_r=1" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.tiktok.com/@codeworks3" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",

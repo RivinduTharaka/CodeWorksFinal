@@ -139,7 +139,7 @@ function About() {
                 },
                 {
                   icon: <RocketLaunchIcon sx={{ fontSize: "1.5rem" }} />,
-                  title: "50+ Successful Projects Delivered",
+                  title: "19+ Successful Projects Delivered",
                   description: "Today, CodeWorks continues to innovate and empower businesses globally.",
                 },
               ].map((event, index) => (

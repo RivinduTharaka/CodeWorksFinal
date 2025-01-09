@@ -43,9 +43,9 @@ function Home() {
     // Count animation for 1–50+
     const countInterval = setInterval(() => {
       setCount((prev) => {
-        if (prev >= 50) {
+        if (prev >= 19) {
           clearInterval(countInterval);
-          return 50; // Stop at 50+
+          return 19; // Stop at 19+
         }
         return prev + 1;
       });
