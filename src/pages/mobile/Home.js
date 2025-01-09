@@ -50,15 +50,15 @@ function Home() {
         }
     }, [step]);
 
-    // Animate count for 50+
+    // Animate count for 19+
     useEffect(() => {
         if (step === 3) {
             let count = 0;
             const countTimer = setInterval(() => {
                 count += 1;
                 setAnimatedCount(count);
-                if (count >= 50) {
-                    clearInterval(countTimer); // Stop animation at 50
+                if (count >= 19) {
+                    clearInterval(countTimer); // Stop animation at 19
                 }
             }, 50); // Increment every 50ms
             return () => clearInterval(countTimer);

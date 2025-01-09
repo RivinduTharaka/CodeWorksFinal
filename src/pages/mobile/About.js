@@ -182,7 +182,7 @@ const About = () => {
                         </TimelineSeparator>
                         <TimelineContent>
                             <Typography variant="h6" sx={{ fontWeight: "bold" }}>
-                                50+ Successful Projects Delivered
+                                19+ Successful Projects Delivered
                             </Typography>
                             <Typography sx={{ width: '200px' }}>Innovating and empowering businesses worldwide.</Typography>
                         </TimelineContent>
