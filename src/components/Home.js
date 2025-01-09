@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Box, Typography } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
+// import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import YouTubeIcon from "@mui/icons-material/YouTube";
@@ -198,19 +198,18 @@ function Home() {
         }}
       >
         {[
-          { icon: FacebookIcon, label: "Facebook", url: "https://www.facebook.com/share/1EKdqvRXFh/?mibextid=LQQJ4d" },
-          { icon: TwitterIcon, label: "Twitter" },
-          { icon: InstagramIcon, label: "Instagram" },
-          { icon: LinkedInIcon, label: "LinkedIn" , url:"https://linkedin.com"},
-          { icon: YouTubeIcon, label: "YouTube" },
-          { icon: WhatsAppIcon, label: "WhatsApp" },
+          { icon: FacebookIcon, label: "Facebook", url: "https://www.facebook.com/share/15nQo7sp2M/?mibextid=wwXIfr" },
+          { icon: InstagramIcon, label: "Instagram", url: "https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" },
+          { icon: LinkedInIcon, label: "LinkedIn", url: "https://www.linkedin.com/company/connexcodeworks/posts/?feedView=all" },
+          { icon: YouTubeIcon, label: "YouTube", url: "https://www.youtube.com/@connexinformationtechnologies" },
+          { icon: WhatsAppIcon, label: "WhatsApp", url: "https://wa.me/94742028155" }, // WhatsApp number added
         ].map((item, index) => (
           <Box
             key={index}
             sx={{
               width: "50px",
               height: "30px",
-              mr: '5px',
+              mr: "5px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
@@ -218,18 +217,30 @@ function Home() {
               borderRadius: "10px",
               transition: "all 0.3s ease-in-out",
               cursor: "pointer",
-              color: 'white',
+              color: "white",
               "&:hover": {
                 backgroundColor: "white",
                 transform: "scale(1.1)",
-                color: '#4eb5e2'
+                color: "#4eb5e2",
               },
             }}
             title={item.label}
           >
             {/* Wrap icon with a link if url is provided */}
             {item.url ? (
-              <a href={item.url} target="_blank" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%', width: '100%', color: 'inherit', textDecoration: 'none' }}>
+              <a
+                href={item.url}
+                target="_blank"
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  height: "100%",
+                  width: "100%",
+                  color: "inherit",
+                  textDecoration: "none",
+                }}
+              >
                 <item.icon sx={{ fontSize: "20px" }} />
               </a>
             ) : (
@@ -238,6 +249,7 @@ function Home() {
           </Box>
         ))}
       </Box>
+
 
 
       <Box
