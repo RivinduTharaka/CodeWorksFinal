@@ -28,7 +28,6 @@ import Nirosh from '../../Image/nirosh-removebg-preview.png';
 import Ravindu from "../../Image/Ravindu-removebg-preview.png";
 import Abhi from "../../Image/Abhi.png";
 import Sadula from "../../Image/Sadula.png";
-import Chulani from "../../Image/Chulani-removebg-preview.png";
 
 const fadeInUp = keyframes`
   0% { opacity: 0; transform: translateY(20px); }
