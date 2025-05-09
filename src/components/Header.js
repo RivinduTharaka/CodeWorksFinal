@@ -307,7 +307,7 @@ const Header = () => {
           >
             <Button
               variant="contained"
-              onClick={() => window.open("https://wa.me/94742028155", "_blank")}
+              onClick={() => window.open("https://whatsapp.com/channel/0029Vb4eNjI2v1Iv5cEXV91M", "_blank")}
               sx={{
                 width: "100%",
                 maxWidth: "300px",
@@ -517,7 +517,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -537,7 +537,7 @@ const Header = () => {
                   style={{ width: "20px", height: "20px" }}
                 />
               </Box>
-            </a>
+            </a> */}
             <a href="https://www.linkedin.com/company/connexcodeworks/posts/?feedView=all" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
@@ -559,7 +559,7 @@ const Header = () => {
                 />
               </Box>
             </a>
-            <a href="https://www.youtube.com/@connexinformationtechnologies" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://www.youtube.com/@connexinformationtechnologies" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",
@@ -579,8 +579,8 @@ const Header = () => {
                   style={{ width: "20px", height: "20px" }}
                 />
               </Box>
-            </a>
-            <a href="https://wa.me/94742028155" target="_blank" rel="noopener noreferrer">
+            </a> */}
+            <a href="https://wa.me/94764757456" target="_blank" rel="noopener noreferrer">
               <Box
                 sx={{
                   width: "40px",

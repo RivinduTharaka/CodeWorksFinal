@@ -199,10 +199,10 @@ function Home() {
       >
         {[
           { icon: FacebookIcon, label: "Facebook", url: "https://www.facebook.com/share/15nQo7sp2M/?mibextid=wwXIfr" },
-          { icon: InstagramIcon, label: "Instagram", url: "https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" },
+          // { icon: InstagramIcon, label: "Instagram", url: "https://www.instagram.com/connexinformationtechnologies?igsh=MjYxNnpkN3FqNTd0" },
           { icon: LinkedInIcon, label: "LinkedIn", url: "https://www.linkedin.com/company/connexcodeworks/posts/?feedView=all" },
-          { icon: YouTubeIcon, label: "YouTube", url: "https://www.youtube.com/@connexinformationtechnologies" },
-          { icon: WhatsAppIcon, label: "WhatsApp", url: "https://wa.me/94742028155" }, // WhatsApp number added
+          // { icon: YouTubeIcon, label: "YouTube", url: "https://www.youtube.com/@connexinformationtechnologies" },
+          { icon: WhatsAppIcon, label: "WhatsApp", url: "https://wa.me/94764757456" }, // WhatsApp number added
         ].map((item, index) => (
           <Box
             key={index}

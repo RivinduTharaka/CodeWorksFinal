@@ -299,10 +299,10 @@ function ContentSection() {
       >
         {[
           { icon: FacebookIcon, label: "Facebook" },
-          { icon: TwitterIcon, label: "Twitter" },
-          { icon: InstagramIcon, label: "Instagram" },
+          // { icon: TwitterIcon, label: "Twitter" },
+          // { icon: InstagramIcon, label: "Instagram" },
           { icon: LinkedInIcon, label: "LinkedIn" },
-          { icon: YouTubeIcon, label: "YouTube" }, // Added YouTube
+          // { icon: YouTubeIcon, label: "YouTube" }, // Added YouTube
           { icon: WhatsAppIcon, label: "WhatsApp" }, // Added WhatsApp
         ].map((item, index) => (
           <Box
